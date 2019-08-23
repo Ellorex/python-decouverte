@@ -1,0 +1,14 @@
+1/ 
+Installer mysql server en local et sur le serveur de prod
+Créer une BDD "test" en local avec des données au choix dedans
+
+En python, créer un script déployant la BDD locale vers le serveur distant
+
+Chaque déploiement génèrera un fichier de log sur le serveur (dans un dossier "logs" par exemple). Ecrire la date de déploiement dans le fichier de log.
+
+Lorsque 3 fichiers de log auront été produits, ces fichiers seront archivés (fichier .zip) et les originaux détruits
+
+2 / 
+Créer un script python automatisant la création d'un compte ftp (pure-ftp). Le script demandera à l'utilisateur un username et le password sera automatiquement généré.
+Tester ensuite la connection au serveur ftp avec le compte créé
+
